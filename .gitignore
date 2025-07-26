@@ -1,6 +1,28 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
+# ==============================================
+# SENTINEL AGENT PROJECT .GITIGNORE
+# ==============================================
+
+# SECURITY - NEVER COMMIT THESE FILES! 🔒
+# ========================================
+# Environment variables with private keys
+.env
+.env.*
+*.env
+
+# Private keys and wallet files
+*.pem
+*.key
+*.keystore
+wallet.json
+keystore/
+
+# API keys and secrets
+secrets/
+config/production.yaml
+config/prod.yaml
+
+# GO LANGUAGE
+# ===========
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -17,16 +39,114 @@ coverage.*
 *.coverprofile
 profile.cov
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
-
-# Go workspace file
+# Go workspace files
 go.work
 go.work.sum
 
-# env file
-.env
+# Dependency directories
+vendor/
 
-# Editor/IDE
-# .idea/
-# .vscode/
+# BLOCKCHAIN & FOUNDRY
+# ====================
+# Foundry build artifacts
+blockchain/out/
+blockchain/cache/
+broadcast/
+
+# Deployment logs and artifacts
+.deployments/
+deployments.json
+
+# Gas reports
+gas-report.txt
+
+# IDE & EDITORS
+# =============
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# MACOS
+# =====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# LINUX
+# =====
+*~
+.nfs*
+
+# WINDOWS
+# =======
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# LOGS & TEMPORARY FILES
+# =====================
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+
+# NODE.JS (if you add frontend)
+# =============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# BACKUP FILES
+# ============
+*.bak
+*.backup
+*.old
+*.orig
+
+# DOCUMENTATION BUILD
+# ===================
+docs/_build/
+
+# DATABASE FILES
+# ==============
+*.db
+*.sqlite
+*.sqlite3
+
+# DOCKER
+# ======
+.dockerignore
+docker-compose.override.yml
+
+# PROJECT SPECIFIC
+# ================
+# Compiled Go agent binaries
+agent/agent
+agent/main
+
+# Local configuration overrides
+config.local.yaml
+settings.local.json
+
+# Test data
+testdata/private/
+test-results/

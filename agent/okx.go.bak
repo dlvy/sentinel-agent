@@ -1,0 +1,30 @@
+package okx
+
+import (
+	"encoding/json"
+	"fmt"
+	"net/http"
+	"time"
+)
+
+type SwapQuote struct {
+	Price string `json:"price"`
+	To    string `json:"to"`
+	Data  string `json:"data"`
+}
+
+func GetSwapQuote(tokenIn, tokenOut, amount string) (*SwapQuote, error) {
+	url := fmt.Sprintf("https://www.okx.com/api/v5/dex/swap/v2/quote?tokenIn=%s&tokenOut=%s&amount=%s", tokenIn, tokenOut, amount)
+	client := &http.Client{Timeout: 10 * time.Second}
+	resp, err := client.Get(url)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	var quote SwapQuote
+	if err := json.NewDecoder(resp.Body).Decode(&quote); err != nil {
+		return nil, err
+	}
+	return &quote, nil
+}
