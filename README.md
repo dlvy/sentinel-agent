@@ -216,27 +216,10 @@ NETWORK=mainnet ./deploy/deploy.sh
 - [ ] 🚧 Mobile notifications
 - [ ] 🚧 Social trading features
 
-## 🤝 Contributing (Be a Chad)
-
-We welcome all contributors! Whether you're a:
-- 🧙‍♂️ Solidity wizard
-- 🐹 Go gopher
-- 📊 Data scientist
-- 🎨 Frontend artist
-- 📝 Documentation hero
-
-Check out our [Contributing Guidelines](./CONTRIBUTING.md) to get started!
 
 ## ⚠️ Disclaimer (DYOR Always)
 
 > **This software is experimental and for educational purposes. Always DYOR (Do Your Own Research) and never risk more than you can afford to lose. Past performance doesn't guarantee future results. Not financial advice. May contain traces of hopium.** 🚨
-
-## 🆘 Support & Community
-
-- 🐛 **Issues**: [GitHub Issues](../../issues)
-- 💬 **Discussions**: [GitHub Discussions](../../discussions)  
-- 🐦 **Twitter**: [@SentinelAgent](https://twitter.com/SentinelAgent)
-- 📱 **Telegram**: [t.me/SentinelAgent](https://t.me/SentinelAgent)
 
 ## 📄 License
 
