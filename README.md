@@ -1,32 +1,36 @@
 # 🚀 Sentinel Agent - Your DeFi Guardian on X Layer 🛡️
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
 ![Chain](https://img.shields.io/badge/chain-X%20Layer-orange.svg)
 ![Language](https://img.shields.io/badge/language-Go%20%2B%20Solidity-green.svg)
-![Status](https://img.shields.io/badge/status-Ready%20to%20Moon-gold.svg)
+![Status](https://img.shields.io/badge/status-Advanced%20Features%20Ready-gold.svg)
 
-> **🔥 WAGMI Alert!** This isn't just another agent - this is your personal DeFi sentinel, deployed on the cutting-edge X Layer blockchain, ready to execute swaps with the precision of a diamond-handed chad! 💎🙌
+> **🔥 WAGMI Alert!** This isn't just another agent - this is your personal DeFi sentinel with **ADVANCED TRADING STRATEGIES** and **MULTI-CHAIN SUPPORT**, deployed on the cutting-edge X Layer blockchain, ready to execute sophisticated trading strategies with the precision of a diamond-handed chad! 💎🙌
 
 ## 🌟 What Makes This Special?
 
-**Sentinel Agent** is the ultimate crypto automation beast that combines:
+**Sentinel Agent V2** is the ultimate crypto automation beast that combines:
 - 🤖 **Smart Account Architecture** - Account abstraction for the win!
-- ⚡ **OKX DEX Integration** - Powered by OKX's lightning-fast aggregator
+- ⚡ **OKX DEX Integration** - Powered by OKX's lightning-fast aggregator  
 - 🔗 **X Layer Native** - Built for OKX's Layer 2 ecosystem
 - 🛡️ **Session Key Security** - Automated trading without compromising your keys
 - 🎯 **One-Click Deployment** - Because time is money, anon!
+- 📊 **Advanced Trading Strategies** - DCA, Grid Trading, Portfolio Rebalancing
+- 🌐 **Multi-Chain Support** - Trade across 7 major networks
+- 🔍 **Arbitrage Detection** - Find profit opportunities across chains
 
 ## 🏗️ Architecture That Hits Different
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Sentinel      │    │   Smart         │    │   OKX DEX       │
-│   Agent         │◄──►│   Account       │◄──►│   Aggregator    │
+│   Agent V2      │◄──►│   Account V2    │◄──►│   Aggregator    │
 │   (Go)          │    │   (Solidity)    │    │   API           │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
         │                       │                       │
         ▼                       ▼                       ▼
-   🤖 Automation          🔐 Security             💱 Best Prices
+   🤖 Advanced            🔐 Strategy             💱 Multi-Chain
+   Strategies             Management             Best Prices
 ```
 
 ## ✨ Features That Make Degens Cry (Happy Tears)
@@ -37,6 +41,26 @@
 - 🌊 **MEV Protection** - Front-running protection built-in
 - 📊 **Real-time Price Feeds** - Always getting the alpha
 - 🚀 **One-Click Deploy** - From zero to hero in minutes
+
+## 🆕 NEW: Advanced Features V2
+
+### 📊 Advanced Trading Strategies
+- **Dollar Cost Averaging (DCA)** - Automate recurring purchases
+- **Grid Trading** - Profit from market volatility with automated grid orders
+- **Portfolio Rebalancing** - Maintain target allocations automatically
+
+### 🌐 Multi-Chain Support
+- **7 Major Networks** - Ethereum, Polygon, Arbitrum, Optimism, Base, X Layer
+- **Cross-Chain Portfolio** - Track assets across all chains
+- **Arbitrage Detection** - Find profitable opportunities between chains
+- **Gas Optimization** - Always choose the most cost-effective chain
+
+### 🔧 Enhanced Architecture
+- **Smart Account V2** - Advanced strategy management on-chain
+- **Modular Design** - Easily add new strategies and chains
+- **Security Enhanced** - ReentrancyGuard and comprehensive validation
+
+> 📖 **Read More:** Check out [ADVANCED_FEATURES.md](ADVANCED_FEATURES.md) for detailed documentation
 
 ## 🚀 Quick Start (Ape In Responsibly)
 
@@ -155,6 +179,26 @@ const (
 )
 ```
 
+## 🎯 Quick Usage Guide
+
+### Original Agent (Tested & Stable)
+```bash
+# Run basic trading agent
+./run-agent.sh
+```
+
+### Advanced Agent V2 (New Features)
+```bash
+# Run agent with advanced strategies and multi-chain support
+./run-agent-v2.sh
+```
+
+### Test Integration
+```bash
+# Run comprehensive integration tests
+./test-integration.sh
+```
+
 ## 🚨 Security Best Practices
 
 1. 🔐 **Private Key Management**
@@ -210,8 +254,8 @@ NETWORK=mainnet ./deploy/deploy.sh
 - [x] ✅ Smart Account deployment
 - [x] ✅ OKX DEX integration  
 - [x] ✅ Basic swap functionality
-- [ ] 🚧 Advanced trading strategies
-- [ ] 🚧 Multi-chain support
+- [x] ✅ Advanced trading strategies
+- [x] ✅ Multi-chain support
 - [ ] 🚧 Web dashboard
 - [ ] 🚧 Mobile notifications
 - [ ] 🚧 Social trading features
