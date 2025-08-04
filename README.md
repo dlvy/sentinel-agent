@@ -193,6 +193,22 @@ const (
 ./run-agent-v2.sh
 ```
 
+### 🌐 Web Dashboard (NEW!)
+```bash
+# Launch the complete web dashboard
+cd web-dashboard
+./start-dashboard.sh
+```
+**Dashboard Features:**
+- 📊 **Real-time Portfolio Tracking** - Monitor assets across 7 chains
+- 🤖 **Strategy Management** - Control DCA, Grid, and Rebalancing bots
+- 📈 **Live Analytics** - Performance charts and P&L tracking
+- 🔄 **Transaction History** - Complete audit trail with status
+- ⚡ **WebSocket Updates** - Real-time data streaming
+- 📱 **Mobile Responsive** - Works on all devices
+
+Access at: http://localhost:3000 (Frontend) + http://localhost:8080 (API)
+
 ### Test Integration
 ```bash
 # Run comprehensive integration tests
@@ -256,7 +272,7 @@ NETWORK=mainnet ./deploy/deploy.sh
 - [x] ✅ Basic swap functionality
 - [x] ✅ Advanced trading strategies
 - [x] ✅ Multi-chain support
-- [ ] 🚧 Web dashboard
+- [x] ✅ Web dashboard
 - [ ] 🚧 Mobile notifications
 - [ ] 🚧 Social trading features
 

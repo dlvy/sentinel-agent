@@ -114,6 +114,19 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js specific
+.next/
+out/
+.swc/
+*.tsbuildinfo
+next-env.d.ts
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
 # BACKUP FILES
 # ============
@@ -142,6 +155,27 @@ docker-compose.override.yml
 # Compiled Go agent binaries
 agent/agent
 agent/main
+agent-v2/agent-v2
+build/
+build/*
+
+# Dashboard build artifacts
+web-dashboard/.next/
+web-dashboard/out/
+web-dashboard/node_modules/
+web-dashboard/.env.local
+web-dashboard/next-env.d.ts
+web-dashboard/package-lock.json
+
+# Dashboard server binary
+web-dashboard/server/dashboard-server
+web-dashboard/server/main
+
+# Blockchain build artifacts
+blockchain/out/
+blockchain/cache/
+blockchain/broadcast/
+lib/
 
 # Local configuration overrides
 config.local.yaml
